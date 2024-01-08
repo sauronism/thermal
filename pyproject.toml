@@ -7,8 +7,24 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-
+python = ">=3.11,<3.12"
+jupyterlab = "^4.0.5"
+tqdm = "^4.66.1"
+numpy = "^1.25.2"
+typer = {extras = ["all"], version = "^0.9.0"}
+scipy = "^1.11.2"
+jaxtyping = "^0.2.21"
+fastapi = "^0.103.0"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+opencv-python = "^4.8.0.76"
+flirpy = {git = "https://github.com/LJMUAstroecology/flirpy.git"}
+pyudev = "^0.24.1"
+psutil = "^5.9.5"
+pyusb = "^1.2.1"
+pyftdi = "^0.55.0"
+natsort = "^8.4.0"
+pillow = "^10.0.0"
+libusb = "^1.0.26b5"
 
 [build-system]
 requires = ["poetry-core"]
